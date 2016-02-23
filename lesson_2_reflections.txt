@@ -1,0 +1,25 @@
+What happens when you initialize a repository? Why do you need to do it?
+I use git init, which creates a subdirectory named .git where all the commited files will go.
+
+How is the staging area different from the working directory and the repository? What value 
+do you think it offers?
+It is an intermediate area where I move the changes to my programs and from there I can commit 
+one by one or a few of them grouped by logical modification to the repository
+
+How can you use the staging area to make sure you have one commit per logical change?
+I add all the files belonging to the same logical change and commit all them together.
+
+When would you want to create a new branch, and when would you not?
+Only if I want to do some experiments with the programs, otherwise I work only with the master
+branch.
+
+How do the diagrams help you visualize these changes?
+To see what changes belong to each branch so I know which ones will be commited and which not.
+
+What is the result of merging two branches together? Why do we represent it in the diagram 
+the way we do?
+It is a commit that merges the changes of two branches
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros are that saves you time, cons are that is veri dangerous because it can overlap changes
+made by different persons making the result unuseful.
